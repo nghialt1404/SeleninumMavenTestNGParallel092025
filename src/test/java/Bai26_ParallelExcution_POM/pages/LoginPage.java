@@ -1,5 +1,6 @@
 package Bai26_ParallelExcution_POM.pages;
 
+import helpers.PropertiesHelper;
 import keyword.WebUI;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -31,7 +32,7 @@ public class LoginPage extends BasePage {
     }
 
     public void navigateToLoginPage() {
-        WebUI.openURL(url_login_admin);
+        WebUI.openURL(PropertiesHelper.getValue("url"));
         WebUI.waitForPageLoaded();
     }
 
@@ -59,9 +60,10 @@ public class LoginPage extends BasePage {
 
     public DashboardPage loginCRM() {
         navigateToLoginPage();
-        enterEmail("admin@example.com");
-        enterPassword("123456");
+        enterEmail(PropertiesHelper.getValue("email"));
+        enterPassword(PropertiesHelper.getValue("password"));
         clickLoginButton();
+        WebUI.waitForPageLoaded();
         verifyLoginSuccess();
         return new DashboardPage();
     }

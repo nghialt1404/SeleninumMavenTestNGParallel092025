@@ -22,7 +22,5 @@ public class DashboardTest extends BaseTest {
         dashboardpage.verifyTotalProjectsInProgress();
 
     }
-
-
-
+    
 }
