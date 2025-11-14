@@ -40,7 +40,7 @@ public class CustomersPage extends BasePage {
     private By buttonSaveandCreatecontact = By.xpath("//button[normalize-space() ='Save and create contact']");
     private By buttonSave = By.xpath("//div[@id='profile-save-section']/descendant::button[normalize-space()='Save']");
 
-    private By alertmessage = By.xpath("//div[@id='alert_float_1']//span[@class='alert-title']");
+    private By alertmessage = By.xpath("//span[normalize-space()='Customer added successfully.']");
 
     // Phương thức của trang Customer Page
 
@@ -81,7 +81,7 @@ public class CustomersPage extends BasePage {
 
         WebUI.clickElement(dropdownGroup);
         WebUI.setText(inputSearchGroup, group);
-        WebUI.clickElement(By.xpath("//a[@id='bs-select-1-245' and normalize-space()='" + group + "']"));
+        WebUI.clickElement(By.xpath("//a[normalize-space()='" + group + "']"));
         WebUI.clickElement(dropdownGroup);
 
         // Select Currency

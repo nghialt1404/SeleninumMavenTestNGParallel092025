@@ -10,7 +10,7 @@ public class LoginPage extends BasePage {
 
     // Khai báo driver trong từng trang
 
-    private String url_login_admin = "https://crm.anhtester.com/admin";
+    private String urlCRM = "https://crm.anhtester.com/admin";
 
 
     // Khai báo đối tượng element thuộc về trang Login
