@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite">
+
+    <listeners>
+        <listener class-name="listener.TestListener"/>
+    </listeners>
+
+    <test name="Demo Test Listener">
+        <classes>
+            <class name="Bai31_TestListener.testcases.LoginTest"/>
+            <class name="Bai31_TestListener.testcases.DashboardTest"/>
+
+        </classes>
+    </test>
+</suite>

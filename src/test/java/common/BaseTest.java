@@ -1,15 +1,21 @@
 package common;
 
 import drivers.DriverManager;
+import helpers.CaptureHelper;
 import helpers.PropertiesHelper;
+import helpers.SystemHelper;
+import listener.TestListener;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.ITestResult;
 import org.testng.annotations.*;
 import org.testng.asserts.SoftAssert;
 
+
+//@Listeners(TestListener.class)
 public class BaseTest {
 
     public SoftAssert softAssert;
@@ -62,8 +68,12 @@ public class BaseTest {
 
     }
 
-    @AfterMethod
-    public void closeDriver() {
+    @AfterMethod(alwaysRun = true)
+    public void closeDriver(ITestResult result) {
+//        if (ITestResult.FAILURE == result.getStatus()) {
+//           CaptureHelper.takeScreenShot(result.getName() + "_" + SystemHelper.getDateTimeFormatted());
+//        }
+        // CaptureHelper.stopRecord();
         if (DriverManager.getDriver() != null) {
             DriverManager.quit();
             softAssert.assertAll();
