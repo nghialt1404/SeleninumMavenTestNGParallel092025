@@ -1,5 +1,6 @@
 package common;
 
+import Utils.LogUtils;
 import drivers.DriverManager;
 import helpers.CaptureHelper;
 import helpers.PropertiesHelper;
@@ -37,7 +38,7 @@ public class BaseTest {
         }
         switch (browserName.trim().toLowerCase()) {
             case "chrome":
-                System.out.println("Launching Chrome browser...");
+                LogUtils.info("Launching Chrome browser...");
                 ChromeOptions option = new ChromeOptions();
                 if (PropertiesHelper.getValue("headless").equalsIgnoreCase("true")) {
                     option.addArguments("--headless=new"); // chạy headless
@@ -46,15 +47,15 @@ public class BaseTest {
                 driver = new ChromeDriver(option);
                 break;
             case "firefox":
-                System.out.println("Launching Firefox browser...");
+                LogUtils.info("Launching Firefox browser...");
                 driver = new FirefoxDriver();
                 break;
             case "edge":
-                System.out.println("Launching Edge browser...");
+                LogUtils.info("Launching Edge browser...");
                 driver = new EdgeDriver();
                 break;
             default:
-                System.out.println("Browser: " + browserName + " is invalid, Launching Chrome as browser of choice...");
+                LogUtils.info("Browser: " + browserName + " is invalid, Launching Chrome as browser of choice...");
                 driver = new ChromeDriver();
 
         }

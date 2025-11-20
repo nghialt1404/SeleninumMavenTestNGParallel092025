@@ -1,0 +1,6 @@
+[INFO ] 19-11-2025 23:08:06 [main] LogUtils - Browser: chorme is invalid, Launching Chrome as browser of choice...
+[INFO ] 19-11-2025 23:08:10 [main] LogUtils - Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO ] 19-11-2025 23:08:11 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO ] 19-11-2025 23:08:12 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO ] 19-11-2025 23:08:15 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO ] 19-11-2025 23:08:15 [main] LogUtils - Tìm thấy phần tử ở lần thử thứ 1
