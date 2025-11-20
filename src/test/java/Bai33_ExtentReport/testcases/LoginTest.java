@@ -1,15 +1,16 @@
-package Bai26_ParallelExcution_POM.testcases;
+package Bai33_ExtentReport.testcases;
 
-import Bai26_ParallelExcution_POM.pages.BasePage;
-import Bai26_ParallelExcution_POM.pages.LoginPage;
+import Bai33_ExtentReport.pages.BasePage;
+import Bai33_ExtentReport.pages.LoginPage;
 import common.BaseTest;
+import org.testng.SkipException;
 import org.testng.annotations.Test;
 
 public class LoginTest extends BaseTest {
 
     private LoginPage loginPage;
 
-    @Test(priority = 1)
+    @Test(priority = 1, testName = "Login Success", description = "Verify user can login with valid credentials")
     public void testLoginSuccess() {
         loginPage = new LoginPage();
         loginPage.loginCRM("admin@example.com", "123456");
@@ -20,7 +21,7 @@ public class LoginTest extends BaseTest {
     @Test(priority = 2)
     public void testLoginFailWithInvalidEmail() {
         loginPage = new LoginPage();
-        loginPage.loginCRM("admin123@example.com", "123456");
+        loginPage.loginCRM("admin@example.com", "123456");
         loginPage.verifyLoginFailureWithEmailOrPasswordInvalid();
     }
 
@@ -40,9 +41,11 @@ public class LoginTest extends BaseTest {
 
     @Test(priority = 5)
     public void testLoginFailWithPasswordNull() {
-        loginPage = new LoginPage();
-        loginPage.loginCRM("admin@example.com", "");
-        loginPage.verifyLoginFailureWithPasswordNull();
+        throw new SkipException("Skipping The Test Method ");
+//        loginPage = new LoginPage();
+//        loginPage.loginCRM("admin@example.com", "");
+//        loginPage.verifyLoginFailureWithPasswordNull();
     }
+
 
 }

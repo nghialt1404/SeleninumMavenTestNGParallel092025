@@ -1,9 +1,9 @@
-package Bai26_ParallelExcution_POM.testcases;
+package Bai33_ExtentReport.testcases;
 
+import Bai33_ExtentReport.pages.DashboardPage;
+import Bai33_ExtentReport.pages.LoginPage;
+import Bai33_ExtentReport.pages.ProjectsPage;
 import common.BaseTest;
-import Bai26_ParallelExcution_POM.pages.DashboardPage;
-import Bai26_ParallelExcution_POM.pages.LoginPage;
-import Bai26_ParallelExcution_POM.pages.ProjectsPage;
 import org.testng.annotations.Test;
 
 public class DashboardTest extends BaseTest {
@@ -22,5 +22,5 @@ public class DashboardTest extends BaseTest {
         dashboardpage.verifyTotalProjectsInProgress();
 
     }
-
+    
 }

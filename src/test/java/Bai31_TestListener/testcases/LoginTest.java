@@ -10,7 +10,6 @@ import org.testng.annotations.Test;
 public class LoginTest extends BaseTest {
 
     private LoginPage loginPage;
-    private BasePage basePage;
 
     @Test(priority = 1)
     public void testLoginSuccess() {
@@ -46,18 +45,6 @@ public class LoginTest extends BaseTest {
         loginPage = new LoginPage();
         loginPage.loginCRM("admin@example.com", "");
         loginPage.verifyLoginFailureWithPasswordNull();
-    }
-
-    @Test(priority = 6)
-    public void testLogoutSuccess() {
-        loginPage = new LoginPage();
-        loginPage.loginCRM("admin@example.com", "123456");
-        loginPage.verifyLoginSuccess();
-
-        basePage = new BasePage();
-        basePage.logoutsystem();
-        loginPage.verifyLoginPageDisplayed();
-
     }
 
 }

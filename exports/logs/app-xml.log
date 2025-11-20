@@ -4,3 +4,476 @@
 [INFO ] 19-11-2025 23:08:12 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
 [INFO ] 19-11-2025 23:08:15 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
 [INFO ] 19-11-2025 23:08:15 [main] LogUtils - Tìm thấy phần tử ở lần thử thứ 1
+[INFO ] 20-11-2025 09:03:34 [main] LogUtils - Browser: chorme is invalid, Launching Chrome as browser of choice...
+[INFO ] 20-11-2025 09:03:40 [main] LogUtils - Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO ] 20-11-2025 09:03:42 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO ] 20-11-2025 09:03:43 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO ] 20-11-2025 09:03:44 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[WARN ] 20-11-2025 09:03:44 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 1
+[INFO ] 20-11-2025 09:03:46 [main] LogUtils - Tìm thấy phần tử ở lần thử thứ 2
+[INFO ] 20-11-2025 09:03:46 [main] LogUtils - Browser: chorme is invalid, Launching Chrome as browser of choice...
+[INFO ] 20-11-2025 09:03:49 [main] LogUtils - Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO ] 20-11-2025 09:03:50 [main] LogUtils - Set text admin123@example.com on element By.xpath: //input[@id='email']
+[INFO ] 20-11-2025 09:03:51 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO ] 20-11-2025 09:03:52 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO ] 20-11-2025 09:03:52 [main] LogUtils - Tìm thấy phần tử ở lần thử thứ 1
+[INFO ] 20-11-2025 09:03:52 [main] LogUtils - Browser: chorme is invalid, Launching Chrome as browser of choice...
+[INFO ] 20-11-2025 09:03:55 [main] LogUtils - Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO ] 20-11-2025 09:03:56 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO ] 20-11-2025 09:03:57 [main] LogUtils - Set text 123456789 on element By.xpath: //input[@id='password']
+[INFO ] 20-11-2025 09:03:58 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[WARN ] 20-11-2025 09:03:58 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 1
+[INFO ] 20-11-2025 09:03:59 [main] LogUtils - Tìm thấy phần tử ở lần thử thứ 2
+[INFO ] 20-11-2025 09:03:59 [main] LogUtils - Browser: chorme is invalid, Launching Chrome as browser of choice...
+[INFO ] 20-11-2025 09:04:02 [main] LogUtils - Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO ] 20-11-2025 09:04:03 [main] LogUtils - Set text  on element By.xpath: //input[@id='email']
+[INFO ] 20-11-2025 09:04:04 [main] LogUtils - Set text 123456789 on element By.xpath: //input[@id='password']
+[INFO ] 20-11-2025 09:04:05 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[WARN ] 20-11-2025 09:04:05 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 1
+[INFO ] 20-11-2025 09:04:06 [main] LogUtils - Tìm thấy phần tử ở lần thử thứ 2
+[INFO ] 20-11-2025 09:04:06 [main] LogUtils - Browser: chorme is invalid, Launching Chrome as browser of choice...
+[INFO ] 20-11-2025 09:04:09 [main] LogUtils - Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO ] 20-11-2025 09:04:10 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO ] 20-11-2025 09:04:11 [main] LogUtils - Set text  on element By.xpath: //input[@id='password']
+[INFO ] 20-11-2025 09:04:12 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[WARN ] 20-11-2025 09:04:12 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 1
+[INFO ] 20-11-2025 09:04:13 [main] LogUtils - Tìm thấy phần tử ở lần thử thứ 2
+[INFO ] 20-11-2025 09:04:13 [main] LogUtils - Browser: chorme is invalid, Launching Chrome as browser of choice...
+[INFO ] 20-11-2025 09:04:16 [main] LogUtils - Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO ] 20-11-2025 09:04:17 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO ] 20-11-2025 09:04:18 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO ] 20-11-2025 09:04:19 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[WARN ] 20-11-2025 09:04:19 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 1
+[INFO ] 20-11-2025 09:04:22 [main] LogUtils - Tìm thấy phần tử ở lần thử thứ 2
+[INFO ] 20-11-2025 09:04:23 [main] LogUtils - Click on element By.xpath: //li[@class='icon header-user-profile']//img
+[INFO ] 20-11-2025 09:04:24 [main] LogUtils - Click on element By.xpath: //a[text()='Logout']
+[INFO ] 20-11-2025 09:04:24 [main] LogUtils - checkElementExist: true --- By.xpath: //h1[normalize-space()='Login']
+[INFO ] 20-11-2025 09:05:31 [main] LogUtils - Browser: chorme is invalid, Launching Chrome as browser of choice...
+[INFO ] 20-11-2025 09:05:34 [main] LogUtils - Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO ] 20-11-2025 09:05:35 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO ] 20-11-2025 09:05:36 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO ] 20-11-2025 09:05:37 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[WARN ] 20-11-2025 09:05:37 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 1
+[INFO ] 20-11-2025 09:05:40 [main] LogUtils - Tìm thấy phần tử ở lần thử thứ 2
+[INFO ] 20-11-2025 09:05:40 [main] LogUtils - Browser: chorme is invalid, Launching Chrome as browser of choice...
+[INFO ] 20-11-2025 09:05:43 [main] LogUtils - Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO ] 20-11-2025 09:05:44 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO ] 20-11-2025 09:05:45 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO ] 20-11-2025 09:05:49 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[WARN ] 20-11-2025 09:05:49 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 1
+[WARN ] 20-11-2025 09:05:50 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 2
+[WARN ] 20-11-2025 09:05:51 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 3
+[WARN ] 20-11-2025 09:05:52 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 4
+[WARN ] 20-11-2025 09:05:53 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 5
+[INFO ] 20-11-2025 09:05:54 [main] LogUtils - Không tìm thấy phần tử sau 5 lần thử.
+[INFO ] 20-11-2025 09:05:54 [main] LogUtils - Browser: chorme is invalid, Launching Chrome as browser of choice...
+[INFO ] 20-11-2025 09:05:56 [main] LogUtils - Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO ] 20-11-2025 09:05:57 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO ] 20-11-2025 09:05:59 [main] LogUtils - Set text 123456789 on element By.xpath: //input[@id='password']
+[INFO ] 20-11-2025 09:06:00 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO ] 20-11-2025 09:06:00 [main] LogUtils - Tìm thấy phần tử ở lần thử thứ 1
+[INFO ] 20-11-2025 09:06:00 [main] LogUtils - Browser: chorme is invalid, Launching Chrome as browser of choice...
+[INFO ] 20-11-2025 09:06:03 [main] LogUtils - Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO ] 20-11-2025 09:06:04 [main] LogUtils - Set text  on element By.xpath: //input[@id='email']
+[INFO ] 20-11-2025 09:06:05 [main] LogUtils - Set text 123456789 on element By.xpath: //input[@id='password']
+[INFO ] 20-11-2025 09:06:06 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO ] 20-11-2025 09:06:06 [main] LogUtils - Tìm thấy phần tử ở lần thử thứ 1
+[INFO ] 20-11-2025 09:06:06 [main] LogUtils - Browser: chorme is invalid, Launching Chrome as browser of choice...
+[INFO ] 20-11-2025 09:06:09 [main] LogUtils - Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO ] 20-11-2025 09:06:10 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO ] 20-11-2025 09:06:11 [main] LogUtils - Set text  on element By.xpath: //input[@id='password']
+[INFO ] 20-11-2025 09:06:12 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[WARN ] 20-11-2025 09:06:12 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 1
+[INFO ] 20-11-2025 09:06:13 [main] LogUtils - Tìm thấy phần tử ở lần thử thứ 2
+[INFO ] 20-11-2025 09:06:13 [main] LogUtils - Browser: chorme is invalid, Launching Chrome as browser of choice...
+[INFO ] 20-11-2025 09:06:16 [main] LogUtils - Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO ] 20-11-2025 09:06:17 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO ] 20-11-2025 09:06:18 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO ] 20-11-2025 09:06:20 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO ] 20-11-2025 09:06:21 [main] LogUtils - Tìm thấy phần tử ở lần thử thứ 1
+[INFO ] 20-11-2025 09:06:22 [main] LogUtils - Click on element By.xpath: //li[@class='icon header-user-profile']//img
+[INFO ] 20-11-2025 09:06:23 [main] LogUtils - Click on element By.xpath: //a[text()='Logout']
+[INFO ] 20-11-2025 09:06:23 [main] LogUtils - checkElementExist: true --- By.xpath: //h1[normalize-space()='Login']
+[INFO ] 20-11-2025 09:16:59 [main] LogUtils - Browser: chorme is invalid, Launching Chrome as browser of choice...
+[INFO ] 20-11-2025 09:17:02 [main] LogUtils - Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO ] 20-11-2025 09:17:03 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO ] 20-11-2025 09:17:04 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO ] 20-11-2025 09:17:06 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO ] 20-11-2025 09:17:07 [main] LogUtils - Tìm thấy phần tử ở lần thử thứ 1
+[INFO ] 20-11-2025 09:17:07 [main] LogUtils - Browser: chorme is invalid, Launching Chrome as browser of choice...
+[INFO ] 20-11-2025 09:17:10 [main] LogUtils - Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO ] 20-11-2025 09:17:11 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO ] 20-11-2025 09:17:12 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO ] 20-11-2025 09:17:14 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[WARN ] 20-11-2025 09:17:15 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 1
+[WARN ] 20-11-2025 09:17:16 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 2
+[WARN ] 20-11-2025 09:17:17 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 3
+[WARN ] 20-11-2025 09:17:18 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 4
+[WARN ] 20-11-2025 09:17:19 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 5
+[INFO ] 20-11-2025 09:17:20 [main] LogUtils - Không tìm thấy phần tử sau 5 lần thử.
+[INFO ] 20-11-2025 09:17:20 [main] LogUtils - Browser: chorme is invalid, Launching Chrome as browser of choice...
+[INFO ] 20-11-2025 09:17:23 [main] LogUtils - Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO ] 20-11-2025 09:17:24 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO ] 20-11-2025 09:17:25 [main] LogUtils - Set text 123456789 on element By.xpath: //input[@id='password']
+[INFO ] 20-11-2025 09:17:26 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO ] 20-11-2025 09:17:26 [main] LogUtils - Tìm thấy phần tử ở lần thử thứ 1
+[INFO ] 20-11-2025 09:17:26 [main] LogUtils - Browser: chorme is invalid, Launching Chrome as browser of choice...
+[INFO ] 20-11-2025 09:17:29 [main] LogUtils - Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO ] 20-11-2025 09:17:30 [main] LogUtils - Set text  on element By.xpath: //input[@id='email']
+[INFO ] 20-11-2025 09:17:31 [main] LogUtils - Set text 123456789 on element By.xpath: //input[@id='password']
+[INFO ] 20-11-2025 09:17:32 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO ] 20-11-2025 09:17:32 [main] LogUtils - Tìm thấy phần tử ở lần thử thứ 1
+[INFO ] 20-11-2025 09:17:32 [main] LogUtils - Browser: chorme is invalid, Launching Chrome as browser of choice...
+[INFO ] 20-11-2025 09:17:35 [main] LogUtils - Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO ] 20-11-2025 09:17:36 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO ] 20-11-2025 09:17:37 [main] LogUtils - Set text  on element By.xpath: //input[@id='password']
+[INFO ] 20-11-2025 09:17:38 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO ] 20-11-2025 09:17:38 [main] LogUtils - Tìm thấy phần tử ở lần thử thứ 1
+[INFO ] 20-11-2025 09:17:39 [main] LogUtils - Browser: chorme is invalid, Launching Chrome as browser of choice...
+[INFO ] 20-11-2025 09:17:41 [main] LogUtils - Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO ] 20-11-2025 09:17:42 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO ] 20-11-2025 09:17:43 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO ] 20-11-2025 09:17:44 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO ] 20-11-2025 09:17:46 [main] LogUtils - Tìm thấy phần tử ở lần thử thứ 1
+[INFO ] 20-11-2025 09:17:47 [main] LogUtils - Click on element By.xpath: //li[@class='icon header-user-profile']//img
+[INFO ] 20-11-2025 09:17:49 [main] LogUtils - Click on element By.xpath: //a[text()='Logout']
+[INFO ] 20-11-2025 09:17:49 [main] LogUtils - checkElementExist: true --- By.xpath: //h1[normalize-space()='Login']
+[INFO ] 20-11-2025 09:21:22 [main] LogUtils - Browser: chorme is invalid, Launching Chrome as browser of choice...
+[INFO ] 20-11-2025 09:21:25 [main] LogUtils - Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO ] 20-11-2025 09:21:26 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO ] 20-11-2025 09:21:27 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO ] 20-11-2025 09:21:30 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO ] 20-11-2025 09:21:30 [main] LogUtils - Tìm thấy phần tử ở lần thử thứ 1
+[INFO ] 20-11-2025 09:21:30 [main] LogUtils - Browser: chorme is invalid, Launching Chrome as browser of choice...
+[INFO ] 20-11-2025 09:21:33 [main] LogUtils - Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO ] 20-11-2025 09:21:34 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO ] 20-11-2025 09:21:35 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO ] 20-11-2025 09:21:37 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[WARN ] 20-11-2025 09:21:37 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 1
+[WARN ] 20-11-2025 09:21:38 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 2
+[WARN ] 20-11-2025 09:21:39 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 3
+[WARN ] 20-11-2025 09:21:40 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 4
+[WARN ] 20-11-2025 09:21:41 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 5
+[INFO ] 20-11-2025 09:21:42 [main] LogUtils - Không tìm thấy phần tử sau 5 lần thử.
+[INFO ] 20-11-2025 09:21:42 [main] LogUtils - Browser: chorme is invalid, Launching Chrome as browser of choice...
+[INFO ] 20-11-2025 09:21:45 [main] LogUtils - Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO ] 20-11-2025 09:21:46 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO ] 20-11-2025 09:21:47 [main] LogUtils - Set text 123456789 on element By.xpath: //input[@id='password']
+[INFO ] 20-11-2025 09:21:49 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO ] 20-11-2025 09:21:49 [main] LogUtils - Tìm thấy phần tử ở lần thử thứ 1
+[INFO ] 20-11-2025 09:21:49 [main] LogUtils - Browser: chorme is invalid, Launching Chrome as browser of choice...
+[INFO ] 20-11-2025 09:21:51 [main] LogUtils - Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO ] 20-11-2025 09:21:53 [main] LogUtils - Set text  on element By.xpath: //input[@id='email']
+[INFO ] 20-11-2025 09:21:54 [main] LogUtils - Set text 123456789 on element By.xpath: //input[@id='password']
+[INFO ] 20-11-2025 09:21:55 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO ] 20-11-2025 09:21:55 [main] LogUtils - Tìm thấy phần tử ở lần thử thứ 1
+[INFO ] 20-11-2025 09:21:55 [main] LogUtils - Browser: chorme is invalid, Launching Chrome as browser of choice...
+[INFO ] 20-11-2025 09:21:58 [main] LogUtils - Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO ] 20-11-2025 09:21:59 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO ] 20-11-2025 09:22:00 [main] LogUtils - Set text  on element By.xpath: //input[@id='password']
+[INFO ] 20-11-2025 09:22:01 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO ] 20-11-2025 09:22:01 [main] LogUtils - Tìm thấy phần tử ở lần thử thứ 1
+[INFO ] 20-11-2025 09:22:01 [main] LogUtils - Browser: chorme is invalid, Launching Chrome as browser of choice...
+[INFO ] 20-11-2025 09:22:04 [main] LogUtils - Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO ] 20-11-2025 09:22:05 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO ] 20-11-2025 09:22:06 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO ] 20-11-2025 09:22:07 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO ] 20-11-2025 09:22:08 [main] LogUtils - Tìm thấy phần tử ở lần thử thứ 1
+[INFO ] 20-11-2025 09:22:09 [main] LogUtils - Click on element By.xpath: //li[@class='icon header-user-profile']//img
+[INFO ] 20-11-2025 09:22:11 [main] LogUtils - Click on element By.xpath: //a[text()='Logout']
+[INFO ] 20-11-2025 09:22:11 [main] LogUtils - checkElementExist: true --- By.xpath: //h1[normalize-space()='Login']
+[INFO ] 20-11-2025 10:27:28 [main] LogUtils - Browser: chorme is invalid, Launching Chrome as browser of choice...
+[INFO ] 20-11-2025 10:27:36 [main] LogUtils - Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO ] 20-11-2025 10:27:37 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO ] 20-11-2025 10:27:38 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO ] 20-11-2025 10:27:41 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO ] 20-11-2025 10:27:41 [main] LogUtils - Tìm thấy phần tử ở lần thử thứ 1
+[INFO ] 20-11-2025 10:27:41 [main] LogUtils - Browser: chorme is invalid, Launching Chrome as browser of choice...
+[INFO ] 20-11-2025 10:27:44 [main] LogUtils - Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO ] 20-11-2025 10:27:45 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO ] 20-11-2025 10:27:46 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO ] 20-11-2025 10:27:49 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[WARN ] 20-11-2025 10:27:49 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 1
+[WARN ] 20-11-2025 10:27:50 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 2
+[WARN ] 20-11-2025 10:27:51 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 3
+[WARN ] 20-11-2025 10:27:52 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 4
+[WARN ] 20-11-2025 10:27:53 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 5
+[INFO ] 20-11-2025 10:27:54 [main] LogUtils - Không tìm thấy phần tử sau 5 lần thử.
+[INFO ] 20-11-2025 10:27:54 [main] LogUtils - Browser: chorme is invalid, Launching Chrome as browser of choice...
+[INFO ] 20-11-2025 10:27:57 [main] LogUtils - Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO ] 20-11-2025 10:27:58 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO ] 20-11-2025 10:27:59 [main] LogUtils - Set text 123456789 on element By.xpath: //input[@id='password']
+[INFO ] 20-11-2025 10:28:00 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO ] 20-11-2025 10:28:01 [main] LogUtils - Tìm thấy phần tử ở lần thử thứ 1
+[INFO ] 20-11-2025 10:28:01 [main] LogUtils - Browser: chorme is invalid, Launching Chrome as browser of choice...
+[INFO ] 20-11-2025 10:28:03 [main] LogUtils - Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO ] 20-11-2025 10:28:04 [main] LogUtils - Set text  on element By.xpath: //input[@id='email']
+[INFO ] 20-11-2025 10:28:05 [main] LogUtils - Set text 123456789 on element By.xpath: //input[@id='password']
+[INFO ] 20-11-2025 10:28:06 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO ] 20-11-2025 10:28:06 [main] LogUtils - Tìm thấy phần tử ở lần thử thứ 1
+[INFO ] 20-11-2025 10:28:06 [main] LogUtils - Browser: chorme is invalid, Launching Chrome as browser of choice...
+[INFO ] 20-11-2025 10:28:09 [main] LogUtils - Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO ] 20-11-2025 10:28:10 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO ] 20-11-2025 10:28:11 [main] LogUtils - Set text  on element By.xpath: //input[@id='password']
+[INFO ] 20-11-2025 10:28:12 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO ] 20-11-2025 10:28:12 [main] LogUtils - Tìm thấy phần tử ở lần thử thứ 1
+[INFO ] 20-11-2025 10:28:13 [main] LogUtils - Browser: chorme is invalid, Launching Chrome as browser of choice...
+[INFO ] 20-11-2025 10:28:15 [main] LogUtils - Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO ] 20-11-2025 10:28:16 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO ] 20-11-2025 10:28:17 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO ] 20-11-2025 10:28:19 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO ] 20-11-2025 10:28:20 [main] LogUtils - Tìm thấy phần tử ở lần thử thứ 1
+[INFO ] 20-11-2025 10:28:21 [main] LogUtils - Click on element By.xpath: //li[@class='icon header-user-profile']//img
+[INFO ] 20-11-2025 10:28:23 [main] LogUtils - Click on element By.xpath: //a[text()='Logout']
+[INFO ] 20-11-2025 10:28:23 [main] LogUtils - checkElementExist: true --- By.xpath: //h1[normalize-space()='Login']
+[INFO ] 20-11-2025 10:32:20 [main] LogUtils - Browser: chorme is invalid, Launching Chrome as browser of choice...
+[INFO ] 20-11-2025 10:32:23 [main] LogUtils - Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO ] 20-11-2025 10:32:24 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO ] 20-11-2025 10:32:25 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO ] 20-11-2025 10:32:28 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO ] 20-11-2025 10:32:28 [main] LogUtils - Tìm thấy phần tử ở lần thử thứ 1
+[INFO ] 20-11-2025 23:24:05 [main] LogUtils - Browser: chorme is invalid, Launching Chrome as browser of choice...
+[INFO ] 20-11-2025 23:24:10 [main] LogUtils - Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO ] 20-11-2025 23:24:11 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO ] 20-11-2025 23:24:12 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO ] 20-11-2025 23:24:15 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO ] 20-11-2025 23:24:15 [main] LogUtils - Tìm thấy phần tử ở lần thử thứ 1
+[INFO ] 20-11-2025 23:37:39 [main] LogUtils - Setup môi trường onStart: Thu Nov 20 23:37:39 ICT 2025
+[INFO ] 20-11-2025 23:37:39 [main] LogUtils - Browser: chorme is invalid, Launching Chrome as browser of choice...
+[INFO ] 20-11-2025 23:37:40 [main] LogUtils - Bắt đầu chạy test case: testLoginSuccess
+[INFO ] 20-11-2025 23:37:50 [main] LogUtils - Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO ] 20-11-2025 23:37:51 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO ] 20-11-2025 23:37:52 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO ] 20-11-2025 23:37:59 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO ] 20-11-2025 23:37:59 [main] LogUtils - Tìm thấy phần tử ở lần thử thứ 1
+[INFO ] 20-11-2025 23:37:59 [main] LogUtils - Test case testLoginSuccess is passed.
+[INFO ] 20-11-2025 23:37:59 [main] LogUtils - ==> Status: 1
+[INFO ] 20-11-2025 23:37:59 [main] LogUtils - Browser: chorme is invalid, Launching Chrome as browser of choice...
+[INFO ] 20-11-2025 23:38:00 [main] LogUtils - Bắt đầu chạy test case: testLoginFailWithInvalidEmail
+[INFO ] 20-11-2025 23:38:02 [main] LogUtils - Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO ] 20-11-2025 23:38:03 [main] LogUtils - Set text admin123@example.com on element By.xpath: //input[@id='email']
+[INFO ] 20-11-2025 23:38:04 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO ] 20-11-2025 23:38:05 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO ] 20-11-2025 23:38:05 [main] LogUtils - Tìm thấy phần tử ở lần thử thứ 1
+[INFO ] 20-11-2025 23:38:05 [main] LogUtils - Test case testLoginFailWithInvalidEmail is passed.
+[INFO ] 20-11-2025 23:38:05 [main] LogUtils - ==> Status: 1
+[INFO ] 20-11-2025 23:38:05 [main] LogUtils - Browser: chorme is invalid, Launching Chrome as browser of choice...
+[INFO ] 20-11-2025 23:38:06 [main] LogUtils - Bắt đầu chạy test case: testLoginFailWithInvalidPassword
+[INFO ] 20-11-2025 23:38:08 [main] LogUtils - Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO ] 20-11-2025 23:38:09 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO ] 20-11-2025 23:38:10 [main] LogUtils - Set text 123456789 on element By.xpath: //input[@id='password']
+[INFO ] 20-11-2025 23:38:11 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO ] 20-11-2025 23:38:11 [main] LogUtils - Tìm thấy phần tử ở lần thử thứ 1
+[INFO ] 20-11-2025 23:38:11 [main] LogUtils - Test case testLoginFailWithInvalidPassword is passed.
+[INFO ] 20-11-2025 23:38:11 [main] LogUtils - ==> Status: 1
+[INFO ] 20-11-2025 23:38:12 [main] LogUtils - Browser: chorme is invalid, Launching Chrome as browser of choice...
+[INFO ] 20-11-2025 23:38:12 [main] LogUtils - Bắt đầu chạy test case: testLoginFailWithEmailNull
+[INFO ] 20-11-2025 23:38:14 [main] LogUtils - Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO ] 20-11-2025 23:38:15 [main] LogUtils - Set text  on element By.xpath: //input[@id='email']
+[INFO ] 20-11-2025 23:38:16 [main] LogUtils - Set text 123456789 on element By.xpath: //input[@id='password']
+[INFO ] 20-11-2025 23:38:17 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO ] 20-11-2025 23:38:17 [main] LogUtils - Tìm thấy phần tử ở lần thử thứ 1
+[INFO ] 20-11-2025 23:38:17 [main] LogUtils - Test case testLoginFailWithEmailNull is passed.
+[INFO ] 20-11-2025 23:38:17 [main] LogUtils - ==> Status: 1
+[INFO ] 20-11-2025 23:38:18 [main] LogUtils - Browser: chorme is invalid, Launching Chrome as browser of choice...
+[INFO ] 20-11-2025 23:38:18 [main] LogUtils - Bắt đầu chạy test case: testLoginFailWithPasswordNull
+[INFO ] 20-11-2025 23:38:20 [main] LogUtils - Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO ] 20-11-2025 23:38:21 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO ] 20-11-2025 23:38:22 [main] LogUtils - Set text  on element By.xpath: //input[@id='password']
+[INFO ] 20-11-2025 23:38:23 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[WARN ] 20-11-2025 23:38:23 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 1
+[INFO ] 20-11-2025 23:38:24 [main] LogUtils - Tìm thấy phần tử ở lần thử thứ 2
+[INFO ] 20-11-2025 23:38:24 [main] LogUtils - Test case testLoginFailWithPasswordNull is passed.
+[INFO ] 20-11-2025 23:38:24 [main] LogUtils - ==> Status: 1
+[INFO ] 20-11-2025 23:38:25 [main] LogUtils - Browser: chorme is invalid, Launching Chrome as browser of choice...
+[INFO ] 20-11-2025 23:38:25 [main] LogUtils - Bắt đầu chạy test case: testLogoutSuccess
+[INFO ] 20-11-2025 23:38:27 [main] LogUtils - Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO ] 20-11-2025 23:38:28 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO ] 20-11-2025 23:38:29 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO ] 20-11-2025 23:38:30 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO ] 20-11-2025 23:38:32 [main] LogUtils - Tìm thấy phần tử ở lần thử thứ 1
+[INFO ] 20-11-2025 23:38:33 [main] LogUtils - Click on element By.xpath: //li[@class='icon header-user-profile']//img
+[INFO ] 20-11-2025 23:38:34 [main] LogUtils - Click on element By.xpath: //a[text()='Logout']
+[INFO ] 20-11-2025 23:38:35 [main] LogUtils - checkElementExist: true --- By.xpath: //h1[normalize-space()='Login']
+[INFO ] 20-11-2025 23:38:35 [main] LogUtils - Test case testLogoutSuccess is passed.
+[INFO ] 20-11-2025 23:38:35 [main] LogUtils - ==> Status: 1
+[INFO ] 20-11-2025 23:38:35 [main] LogUtils - Kết thúc bộ test: Thu Nov 20 23:38:35 ICT 2025
+[INFO ] 20-11-2025 23:51:10 [main] LogUtils - Setup môi trường onStart: Thu Nov 20 23:51:10 ICT 2025
+[INFO ] 20-11-2025 23:51:10 [main] LogUtils - Browser: chorme is invalid, Launching Chrome as browser of choice...
+[INFO ] 20-11-2025 23:51:11 [main] LogUtils - Bắt đầu chạy test case: testLoginSuccess
+[INFO ] 20-11-2025 23:51:14 [main] LogUtils - Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO ] 20-11-2025 23:51:15 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO ] 20-11-2025 23:51:16 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO ] 20-11-2025 23:51:19 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO ] 20-11-2025 23:51:19 [main] LogUtils - Tìm thấy phần tử ở lần thử thứ 1
+[INFO ] 20-11-2025 23:51:19 [main] LogUtils - Test case testLoginSuccess is passed.
+[INFO ] 20-11-2025 23:51:19 [main] LogUtils - ==> Status: 1
+[INFO ] 20-11-2025 23:51:19 [main] LogUtils - Browser: chorme is invalid, Launching Chrome as browser of choice...
+[INFO ] 20-11-2025 23:51:20 [main] LogUtils - Bắt đầu chạy test case: testLoginFailWithInvalidEmail
+[INFO ] 20-11-2025 23:51:22 [main] LogUtils - Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO ] 20-11-2025 23:51:23 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO ] 20-11-2025 23:51:24 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO ] 20-11-2025 23:51:25 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[WARN ] 20-11-2025 23:51:25 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 1
+[WARN ] 20-11-2025 23:51:26 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 2
+[WARN ] 20-11-2025 23:51:27 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 3
+[WARN ] 20-11-2025 23:51:28 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 4
+[WARN ] 20-11-2025 23:51:29 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 5
+[INFO ] 20-11-2025 23:51:30 [main] LogUtils - Không tìm thấy phần tử sau 5 lần thử.
+[ERROR] 20-11-2025 23:51:30 [main] LogUtils - Test case testLoginFailWithInvalidEmail is failed.
+[ERROR] 20-11-2025 23:51:30 [main] LogUtils -  ==> Reason : java.lang.AssertionError: Error message for invalid email not displayed. expected [true] but found [false]
+[INFO ] 20-11-2025 23:51:31 [main] LogUtils - Browser: chorme is invalid, Launching Chrome as browser of choice...
+[INFO ] 20-11-2025 23:51:32 [main] LogUtils - Bắt đầu chạy test case: testLoginFailWithInvalidPassword
+[INFO ] 20-11-2025 23:51:34 [main] LogUtils - Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO ] 20-11-2025 23:51:35 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO ] 20-11-2025 23:51:36 [main] LogUtils - Set text 123456789 on element By.xpath: //input[@id='password']
+[INFO ] 20-11-2025 23:51:37 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[WARN ] 20-11-2025 23:51:37 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 1
+[INFO ] 20-11-2025 23:51:38 [main] LogUtils - Tìm thấy phần tử ở lần thử thứ 2
+[INFO ] 20-11-2025 23:51:38 [main] LogUtils - Test case testLoginFailWithInvalidPassword is passed.
+[INFO ] 20-11-2025 23:51:38 [main] LogUtils - ==> Status: 1
+[INFO ] 20-11-2025 23:51:39 [main] LogUtils - Browser: chorme is invalid, Launching Chrome as browser of choice...
+[INFO ] 20-11-2025 23:51:39 [main] LogUtils - Bắt đầu chạy test case: testLoginFailWithEmailNull
+[INFO ] 20-11-2025 23:51:41 [main] LogUtils - Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO ] 20-11-2025 23:51:43 [main] LogUtils - Set text  on element By.xpath: //input[@id='email']
+[INFO ] 20-11-2025 23:51:44 [main] LogUtils - Set text 123456789 on element By.xpath: //input[@id='password']
+[INFO ] 20-11-2025 23:51:45 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[WARN ] 20-11-2025 23:51:45 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 1
+[INFO ] 20-11-2025 23:51:46 [main] LogUtils - Tìm thấy phần tử ở lần thử thứ 2
+[INFO ] 20-11-2025 23:51:46 [main] LogUtils - Test case testLoginFailWithEmailNull is passed.
+[INFO ] 20-11-2025 23:51:46 [main] LogUtils - ==> Status: 1
+[INFO ] 20-11-2025 23:51:46 [main] LogUtils - Browser: chorme is invalid, Launching Chrome as browser of choice...
+[INFO ] 20-11-2025 23:51:47 [main] LogUtils - Bắt đầu chạy test case: testLoginFailWithPasswordNull
+[WARN ] 20-11-2025 23:51:47 [main] LogUtils - Test case testLoginFailWithPasswordNull is skipped.
+[INFO ] 20-11-2025 23:51:47 [main] LogUtils - Kết thúc bộ test: Thu Nov 20 23:51:47 ICT 2025
+[INFO ] 20-11-2025 23:55:31 [main] LogUtils - Setup môi trường onStart: Thu Nov 20 23:55:31 ICT 2025
+[INFO ] 20-11-2025 23:55:31 [main] LogUtils - Browser: chorme is invalid, Launching Chrome as browser of choice...
+[INFO ] 20-11-2025 23:55:32 [main] LogUtils - Bắt đầu chạy test case: testLoginSuccess
+[INFO ] 20-11-2025 23:55:34 [main] LogUtils - Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO ] 20-11-2025 23:55:35 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO ] 20-11-2025 23:55:36 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO ] 20-11-2025 23:55:38 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO ] 20-11-2025 23:55:38 [main] LogUtils - Tìm thấy phần tử ở lần thử thứ 1
+[INFO ] 20-11-2025 23:55:38 [main] LogUtils - Test case testLoginSuccess is passed.
+[INFO ] 20-11-2025 23:55:38 [main] LogUtils - ==> Status: 1
+[INFO ] 20-11-2025 23:55:39 [main] LogUtils - Browser: chorme is invalid, Launching Chrome as browser of choice...
+[INFO ] 20-11-2025 23:55:39 [main] LogUtils - Bắt đầu chạy test case: testLoginFailWithInvalidEmail
+[INFO ] 20-11-2025 23:55:41 [main] LogUtils - Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO ] 20-11-2025 23:55:42 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO ] 20-11-2025 23:55:43 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO ] 20-11-2025 23:55:46 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[WARN ] 20-11-2025 23:55:46 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 1
+[WARN ] 20-11-2025 23:55:47 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 2
+[WARN ] 20-11-2025 23:55:48 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 3
+[WARN ] 20-11-2025 23:55:49 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 4
+[WARN ] 20-11-2025 23:55:50 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 5
+[INFO ] 20-11-2025 23:55:51 [main] LogUtils - Không tìm thấy phần tử sau 5 lần thử.
+[ERROR] 20-11-2025 23:55:51 [main] LogUtils - Test case testLoginFailWithInvalidEmail is failed.
+[ERROR] 20-11-2025 23:55:51 [main] LogUtils -  ==> Reason : java.lang.AssertionError: Error message for invalid email not displayed. expected [true] but found [false]
+[INFO ] 20-11-2025 23:55:51 [main] LogUtils - Browser: chorme is invalid, Launching Chrome as browser of choice...
+[INFO ] 20-11-2025 23:55:52 [main] LogUtils - Bắt đầu chạy test case: testLoginFailWithInvalidPassword
+[INFO ] 20-11-2025 23:55:54 [main] LogUtils - Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO ] 20-11-2025 23:55:55 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO ] 20-11-2025 23:55:56 [main] LogUtils - Set text 123456789 on element By.xpath: //input[@id='password']
+[INFO ] 20-11-2025 23:55:57 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO ] 20-11-2025 23:55:57 [main] LogUtils - Tìm thấy phần tử ở lần thử thứ 1
+[INFO ] 20-11-2025 23:55:57 [main] LogUtils - Test case testLoginFailWithInvalidPassword is passed.
+[INFO ] 20-11-2025 23:55:57 [main] LogUtils - ==> Status: 1
+[INFO ] 20-11-2025 23:55:58 [main] LogUtils - Browser: chorme is invalid, Launching Chrome as browser of choice...
+[INFO ] 20-11-2025 23:55:58 [main] LogUtils - Bắt đầu chạy test case: testLoginFailWithEmailNull
+[INFO ] 20-11-2025 23:56:00 [main] LogUtils - Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO ] 20-11-2025 23:56:01 [main] LogUtils - Set text  on element By.xpath: //input[@id='email']
+[INFO ] 20-11-2025 23:56:02 [main] LogUtils - Set text 123456789 on element By.xpath: //input[@id='password']
+[INFO ] 20-11-2025 23:56:03 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO ] 20-11-2025 23:56:03 [main] LogUtils - Tìm thấy phần tử ở lần thử thứ 1
+[INFO ] 20-11-2025 23:56:03 [main] LogUtils - Test case testLoginFailWithEmailNull is passed.
+[INFO ] 20-11-2025 23:56:03 [main] LogUtils - ==> Status: 1
+[INFO ] 20-11-2025 23:56:03 [main] LogUtils - Browser: chorme is invalid, Launching Chrome as browser of choice...
+[INFO ] 20-11-2025 23:56:04 [main] LogUtils - Bắt đầu chạy test case: testLoginFailWithPasswordNull
+[WARN ] 20-11-2025 23:56:04 [main] LogUtils - Test case testLoginFailWithPasswordNull is skipped.
+[INFO ] 20-11-2025 23:56:04 [main] LogUtils - Kết thúc bộ test: Thu Nov 20 23:56:04 ICT 2025
+[INFO ] 21-11-2025 00:07:50 [main] LogUtils - Setup môi trường onStart: Fri Nov 21 00:07:50 ICT 2025
+[INFO ] 21-11-2025 00:07:50 [main] LogUtils - Browser: chorme is invalid, Launching Chrome as browser of choice...
+[INFO ] 21-11-2025 00:07:51 [main] LogUtils - Bắt đầu chạy test case: testLoginSuccess
+[INFO ] 21-11-2025 00:07:54 [main] LogUtils - Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO ] 21-11-2025 00:07:55 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO ] 21-11-2025 00:07:56 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO ] 21-11-2025 00:07:59 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO ] 21-11-2025 00:07:59 [main] LogUtils - Tìm thấy phần tử ở lần thử thứ 1
+[INFO ] 21-11-2025 00:07:59 [main] LogUtils - Test case testLoginSuccess is passed.
+[INFO ] 21-11-2025 00:07:59 [main] LogUtils - ==> Status: 1
+[INFO ] 21-11-2025 00:07:59 [main] LogUtils - Kết thúc bộ test: Fri Nov 21 00:07:59 ICT 2025
+[INFO ] 21-11-2025 00:09:27 [main] LogUtils - Setup môi trường onStart: Fri Nov 21 00:09:27 ICT 2025
+[INFO ] 21-11-2025 00:09:27 [main] LogUtils - Browser: chorme is invalid, Launching Chrome as browser of choice...
+[INFO ] 21-11-2025 00:09:28 [main] LogUtils - Bắt đầu chạy test case: testLoginSuccess
+[INFO ] 21-11-2025 00:09:30 [main] LogUtils - Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO ] 21-11-2025 00:09:31 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO ] 21-11-2025 00:09:32 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO ] 21-11-2025 00:09:34 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO ] 21-11-2025 00:09:35 [main] LogUtils - Tìm thấy phần tử ở lần thử thứ 1
+[INFO ] 21-11-2025 00:09:35 [main] LogUtils - Test case testLoginSuccess is passed.
+[INFO ] 21-11-2025 00:09:35 [main] LogUtils - ==> Status: 1
+[INFO ] 21-11-2025 00:09:35 [main] LogUtils - Browser: chorme is invalid, Launching Chrome as browser of choice...
+[INFO ] 21-11-2025 00:09:36 [main] LogUtils - Bắt đầu chạy test case: testLoginFailWithInvalidEmail
+[INFO ] 21-11-2025 00:09:38 [main] LogUtils - Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO ] 21-11-2025 00:09:39 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO ] 21-11-2025 00:09:40 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO ] 21-11-2025 00:09:42 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[WARN ] 21-11-2025 00:09:42 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 1
+[WARN ] 21-11-2025 00:09:43 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 2
+[WARN ] 21-11-2025 00:09:44 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 3
+[WARN ] 21-11-2025 00:09:45 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 4
+[WARN ] 21-11-2025 00:09:46 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 5
+[INFO ] 21-11-2025 00:09:47 [main] LogUtils - Không tìm thấy phần tử sau 5 lần thử.
+[ERROR] 21-11-2025 00:09:47 [main] LogUtils - Test case testLoginFailWithInvalidEmail is failed.
+[ERROR] 21-11-2025 00:09:47 [main] LogUtils -  ==> Reason : java.lang.AssertionError: Error message for invalid email not displayed. expected [true] but found [false]
+[INFO ] 21-11-2025 00:09:48 [main] LogUtils - Browser: chorme is invalid, Launching Chrome as browser of choice...
+[INFO ] 21-11-2025 00:09:48 [main] LogUtils - Bắt đầu chạy test case: testLoginFailWithInvalidPassword
+[INFO ] 21-11-2025 00:09:51 [main] LogUtils - Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO ] 21-11-2025 00:09:52 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO ] 21-11-2025 00:09:53 [main] LogUtils - Set text 123456789 on element By.xpath: //input[@id='password']
+[INFO ] 21-11-2025 00:09:54 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO ] 21-11-2025 00:09:54 [main] LogUtils - Tìm thấy phần tử ở lần thử thứ 1
+[INFO ] 21-11-2025 00:09:54 [main] LogUtils - Test case testLoginFailWithInvalidPassword is passed.
+[INFO ] 21-11-2025 00:09:54 [main] LogUtils - ==> Status: 1
+[INFO ] 21-11-2025 00:09:54 [main] LogUtils - Browser: chorme is invalid, Launching Chrome as browser of choice...
+[INFO ] 21-11-2025 00:09:55 [main] LogUtils - Bắt đầu chạy test case: testLoginFailWithEmailNull
+[INFO ] 21-11-2025 00:09:57 [main] LogUtils - Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO ] 21-11-2025 00:09:58 [main] LogUtils - Set text  on element By.xpath: //input[@id='email']
+[INFO ] 21-11-2025 00:09:59 [main] LogUtils - Set text 123456789 on element By.xpath: //input[@id='password']
+[INFO ] 21-11-2025 00:10:00 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO ] 21-11-2025 00:10:00 [main] LogUtils - Tìm thấy phần tử ở lần thử thứ 1
+[INFO ] 21-11-2025 00:10:00 [main] LogUtils - Test case testLoginFailWithEmailNull is passed.
+[INFO ] 21-11-2025 00:10:00 [main] LogUtils - ==> Status: 1
+[INFO ] 21-11-2025 00:10:00 [main] LogUtils - Browser: chorme is invalid, Launching Chrome as browser of choice...
+[INFO ] 21-11-2025 00:10:01 [main] LogUtils - Bắt đầu chạy test case: testLoginFailWithPasswordNull
+[WARN ] 21-11-2025 00:10:01 [main] LogUtils - Test case testLoginFailWithPasswordNull is skipped.
+[INFO ] 21-11-2025 00:10:01 [main] LogUtils - Kết thúc bộ test: Fri Nov 21 00:10:01 ICT 2025
+[INFO ] 21-11-2025 00:11:54 [main] LogUtils - Setup môi trường onStart: Fri Nov 21 00:11:54 ICT 2025
+[INFO ] 21-11-2025 00:11:54 [main] LogUtils - Browser: chorme is invalid, Launching Chrome as browser of choice...
+[INFO ] 21-11-2025 00:11:55 [main] LogUtils - Bắt đầu chạy test case: testLabelProjectInProgress
+[INFO ] 21-11-2025 00:11:57 [main] LogUtils - Open URL:  https://crm.anhtester.com/admin/authentication
+[INFO ] 21-11-2025 00:11:58 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO ] 21-11-2025 00:11:59 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO ] 21-11-2025 00:12:00 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[WARN ] 21-11-2025 00:12:00 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 1
+[INFO ] 21-11-2025 00:12:02 [main] LogUtils - Tìm thấy phần tử ở lần thử thứ 2
+[INFO ] 21-11-2025 00:12:02 [main] LogUtils - checkElementExist: true --- By.xpath: //div[@class='screen-options-btn']
+[INFO ] 21-11-2025 00:12:03 [main] LogUtils - Get text of element By.xpath: (//span[normalize-space()='Projects In Progress']/parent::div)/following-sibling::span
+[INFO ] 21-11-2025 00:12:03 [main] LogUtils - ==> TEXT: 145 / 162
+[INFO ] 21-11-2025 00:12:04 [main] LogUtils - Click on element By.xpath: //span[normalize-space()='Projects']
+[INFO ] 21-11-2025 00:12:05 [main] LogUtils - Get text of element By.xpath: (//div[@class='_filters _hidden_inputs']//span[normalize-space()='In Progress'])/preceding-sibling::span
+[INFO ] 21-11-2025 00:12:05 [main] LogUtils - ==> TEXT: 145
+[INFO ] 21-11-2025 00:12:06 [main] LogUtils - Get text of element By.xpath: (//div[@class='_filters _hidden_inputs']//span[normalize-space()='Not Started'])/preceding-sibling::span
+[INFO ] 21-11-2025 00:12:06 [main] LogUtils - ==> TEXT: 17
+[INFO ] 21-11-2025 00:12:07 [main] LogUtils - Get text of element By.xpath: (//div[@class='_filters _hidden_inputs']//span[normalize-space()='In Progress'])/preceding-sibling::span
+[INFO ] 21-11-2025 00:12:07 [main] LogUtils - ==> TEXT: 145
+[INFO ] 21-11-2025 00:12:08 [main] LogUtils - Get text of element By.xpath: (//div[@class='_filters _hidden_inputs']//span[normalize-space()='Finished'])/preceding-sibling::span
+[INFO ] 21-11-2025 00:12:08 [main] LogUtils - ==> TEXT: 0
+[INFO ] 21-11-2025 00:12:09 [main] LogUtils - Get text of element By.xpath: (//div[@class='_filters _hidden_inputs']//span[normalize-space()='On Hold'])/preceding-sibling::span
+[INFO ] 21-11-2025 00:12:09 [main] LogUtils - ==> TEXT: 0
+[INFO ] 21-11-2025 00:12:10 [main] LogUtils - Get text of element By.xpath: (//div[@class='_filters _hidden_inputs']//span[normalize-space()='Cancelled'])/preceding-sibling::span
+[INFO ] 21-11-2025 00:12:10 [main] LogUtils - ==> TEXT: 0
+[INFO ] 21-11-2025 00:12:10 [main] LogUtils - Test case testLabelProjectInProgress is passed.
+[INFO ] 21-11-2025 00:12:10 [main] LogUtils - ==> Status: 1
+[INFO ] 21-11-2025 00:12:11 [main] LogUtils - Kết thúc bộ test: Fri Nov 21 00:12:11 ICT 2025
