@@ -2,13 +2,21 @@ package keyword;
 
 import Utils.LogUtils;
 import com.aventstack.extentreports.Status;
+import constants.DataConfig;
 import drivers.DriverManager;
+import helpers.PropertiesHelper;
+import helpers.SystemHelper;
+import io.qameta.allure.Allure;
+import io.qameta.allure.Step;
+import io.qameta.allure.Story;
 import org.openqa.selenium.*;
+import org.openqa.selenium.devtools.v140.network.model.AlternateProtocolUsage;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+import reports.AllureManager;
 import reports.ExtentTestManager;
 
 import java.awt.*;
@@ -16,12 +24,9 @@ import java.awt.event.KeyEvent;
 import java.time.Duration;
 import java.util.List;
 
+import static constants.DataConfig.*;
+
 public class WebUI {
-
-    private static int WAIT_TIMEOUT = 5;
-    public static double STEP_TIME = 1;
-    private static int PAGE_LOAD_TIMEOUT = 10;
-
 
     public static void logConsole(Object message) {
         System.out.println(message);
@@ -189,41 +194,73 @@ public class WebUI {
         return false;
     }
 
+    @Step("Open Url {0}")
     public static void openURL(String url) {
         DriverManager.getDriver().get(url);
         sleep(STEP_TIME);
         LogUtils.info("Open URL:  " + url);
         ExtentTestManager.logMessage(Status.PASS, "Open URL: " + url);
+
+        if (SCREENSHOT_ALL_STEP.equals("true")) {
+            ExtentTestManager.addScreenshot("openURL_" + SystemHelper.getDateTimeFormatted());
+            AllureManager.saveScreenshotPNG();
+        }
     }
 
-
+    @Step("Click on element {0}")
     public static void clickElement(By by) {
         sleep(STEP_TIME);
         waitForElementToBeClickAble(by).click();
         LogUtils.info("Click on element " + by);
         ExtentTestManager.logMessage(Status.PASS, "Click on element " + by);
+
+        if (SCREENSHOT_ALL_STEP.equals("true")) {
+            ExtentTestManager.addScreenshot("clickElement_" + SystemHelper.getDateTimeFormatted());
+            AllureManager.saveScreenshotPNG();
+        }
     }
 
+    @Step("Click on element {0} within {1} seconds")
     public static void clickElement(By by, int seconds) {
         sleep(STEP_TIME);
         waitForElementToBeClickAble(by, seconds).click();
         LogUtils.info("Click on element " + by);
+
+        if (SCREENSHOT_ALL_STEP.equals("true")) {
+            ExtentTestManager.addScreenshot("clickElement_" + SystemHelper.getDateTimeFormatted());
+            AllureManager.saveScreenshotPNG();
+        }
     }
 
+
+    @Step("Set text {1} on element {0}")
     public static void setText(By by, String text) {
         sleep(STEP_TIME);
         waitForElementVisible(by).sendKeys(text);
         LogUtils.info("Set text " + text + " on element " + by);
         ExtentTestManager.logMessage(Status.PASS, "Set text " + text + " on element " + by);
+
+        if (SCREENSHOT_ALL_STEP.equals("true")) {
+            ExtentTestManager.addScreenshot("setText_" + SystemHelper.getDateTimeFormatted());
+            AllureManager.saveScreenshotPNG();
+        }
     }
 
+    @Step("Set text {1} on element {0} within {2} seconds")
     public static void setText(By by, String text, int seconds) {
         sleep(STEP_TIME);
         waitForElementVisible(by, seconds).sendKeys(text);
         LogUtils.info("Set text " + text + " on element " + by);
         ExtentTestManager.logMessage(Status.PASS, "Set text " + text + " on element " + by);
+
+        if (SCREENSHOT_ALL_STEP.equals("true")) {
+            ExtentTestManager.addScreenshot("setText_" + SystemHelper.getDateTimeFormatted());
+            AllureManager.saveScreenshotPNG();
+        }
     }
 
+
+    @Step("Get text of element {0}")
     public static String getElementText(By by) {
         waitForElementVisible(by);
         sleep(STEP_TIME);
@@ -232,9 +269,17 @@ public class WebUI {
         LogUtils.info("==> TEXT: " + text);
         ExtentTestManager.logMessage(Status.PASS, "Get text of element " + by);
         ExtentTestManager.logMessage(Status.INFO, "==> Text: " + getWebElement(by).getText());
+        AllureManager.saveTextLog("==> TEXT: " + text);
+
+        if (SCREENSHOT_ALL_STEP.equals("true")) {
+            ExtentTestManager.addScreenshot("getElementText_" + SystemHelper.getDateTimeFormatted());
+            AllureManager.saveScreenshotPNG();
+        }
+
         return text; //Trả về một giá trị kiểu String
     }
 
+    @Step("Get attribute {1} of element {0}")
     public static String getElementAttribute(By by, String attributeName) {
         waitForElementVisible(by);
         LogUtils.info("Get attribute of element " + by);
@@ -242,6 +287,13 @@ public class WebUI {
         LogUtils.info("==> Attribute value: " + value);
         ExtentTestManager.logMessage(Status.PASS, "Get Attribute of element " + by);
         ExtentTestManager.logMessage(Status.INFO, "==> Attribute value:: " + getWebElement(by).getText());
+        AllureManager.saveTextLog("==> Attribute value: " + value);
+
+        if (SCREENSHOT_ALL_STEP.equals("true")) {
+            ExtentTestManager.addScreenshot("getAttribute" + SystemHelper.getDateTimeFormatted());
+            AllureManager.saveScreenshotPNG();
+        }
+
         return value;
     }
 
@@ -304,6 +356,7 @@ public class WebUI {
             return false;
         }
     }
+
     public static boolean moveToOffset(int X, int Y) {
         try {
             Actions action = new Actions(DriverManager.getDriver());
@@ -334,6 +387,7 @@ public class WebUI {
             return false;
         }
     }
+
     public static boolean dragAndDrop(By fromElement, By toElement) {
         try {
             Actions action = new Actions(DriverManager.getDriver());
@@ -428,8 +482,6 @@ public class WebUI {
         boolean check = actual.contains(expected);
         Assert.assertTrue(check, message);
     }
-
-
 
 
 }

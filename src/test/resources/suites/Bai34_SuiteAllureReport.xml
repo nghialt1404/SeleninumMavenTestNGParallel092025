@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite Allure Report" parallel="methods">
+
+    <!--    <listeners>-->
+    <!--        <listener class-name="listener.TestListener"/>-->
+    <!--    </listeners>-->
+
+    <test name="Demo Allure Report 1">
+        <classes>
+            <class name="Bai34_AllureReport.testcases.LoginTest"/>
+        </classes>
+    </test>
+    <test name="Demo Allure Report 2">
+        <classes>
+            <class name="Bai34_AllureReport.testcases.DashboardTest"/>
+        </classes>
+    </test>
+</suite>

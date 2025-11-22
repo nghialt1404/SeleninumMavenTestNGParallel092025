@@ -2,15 +2,21 @@ package listener;
 
 import Utils.LogUtils;
 import com.aventstack.extentreports.Status;
+import constants.DataConfig;
 import helpers.CaptureHelper;
+import helpers.PropertiesHelper;
 import helpers.SystemHelper;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
+import reports.AllureManager;
 import reports.ExtentReportManager;
 import reports.ExtentTestManager;
 
 import javax.sound.midi.Soundbank;
+
+import static constants.DataConfig.*;
+
 
 public class TestListener implements ITestListener {
 
@@ -34,8 +40,6 @@ public class TestListener implements ITestListener {
     @Override
     public void onFinish(ITestContext result) {
         LogUtils.info("Kết thúc bộ test: " + result.getEndDate());
-        // Generate Report
-        // Send email
 
         //Kết thúc và thực thi Extents Report
         ExtentReportManager.getExtentReports().flush();
@@ -43,10 +47,13 @@ public class TestListener implements ITestListener {
 
     @Override
     public void onTestStart(ITestResult result) {
+        // Write log to file
         LogUtils.info("Bắt đầu chạy test case: " + result.getName());
         // count_total++;
-        // Write log to file
-        CaptureHelper.startRecord(result.getName());
+
+        if (VIDEO_RECORD.equals("true")) {
+            CaptureHelper.startRecord(result.getName());
+        }
 
         //Bắt đầu ghi 1 TCs mới vào Extent Report
         ExtentTestManager.saveToReport(getTestName(result), getTestDescription(result));
@@ -59,49 +66,52 @@ public class TestListener implements ITestListener {
         LogUtils.info("Test case " + result.getName() + " is passed.");
         LogUtils.info("==> Status: " + result.getStatus());
         //count_passsed++
-        // Write log to file
-        // Write Status to report
+
 
         //Extent Report
+        if (SCREENSHOT_SUCCESS.equals("true")) {
+            ExtentTestManager.addScreenshot(result.getName());
+        }
         ExtentTestManager.logMessage(Status.PASS, result.getName() + " is passed.");
 
-        CaptureHelper.stopRecord();
+        if (VIDEO_RECORD.equals("true")) {
+            CaptureHelper.stopRecord();
+        }
 
     }
 
     @Override
     public void onTestFailure(ITestResult result) {
         LogUtils.error("Test case " + result.getName() + " is failed.");
-        //LogUtils.info("==> Status: " + result.getStatus());
+        LogUtils.info("==> Status: " + result.getStatus());
         //count_failed++
         LogUtils.error(" ==> Reason : " + result.getThrowable());
         CaptureHelper.takeScreenShot(result.getName());
-        // Create ticket on Jira
-        // Write log to file
-        // Write Status to Report
 
         //Extent Report
-        ExtentTestManager.addScreenshot(result.getName());
+        if (SCREENSHOT_FAILURE.equals("true")) {
+            ExtentTestManager.addScreenshot(result.getName());
+        }
         ExtentTestManager.logMessage(Status.FAIL, result.getThrowable().toString());
         ExtentTestManager.logMessage(Status.FAIL, result.getName() + " is failed.");
 
-        CaptureHelper.stopRecord();
-
-
+        if (VIDEO_RECORD.equals("true")) {
+            CaptureHelper.stopRecord();
+        }
     }
 
     @Override
     public void onTestSkipped(ITestResult result) {
         LogUtils.warn("Test case " + result.getName() + " is skipped.");
-        //LogUtils.warn("==> Status: " + result.getStatus());
-        // Write log to file
-        // Write Status to Report
+        LogUtils.warn("==> Status: " + result.getStatus());
 
         //Extent Report
         ExtentTestManager.logMessage(Status.SKIP, result.getThrowable().toString());
         ExtentTestManager.logMessage(Status.SKIP, result.getName() + " is skipped.");
 
-        CaptureHelper.stopRecord();
+        if (VIDEO_RECORD.equals("true")) {
+            CaptureHelper.stopRecord();
+        }
 
 
     }
