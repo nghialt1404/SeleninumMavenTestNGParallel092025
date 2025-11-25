@@ -1,5 +1,6 @@
 package common;
 
+import Bai26_ParallelExcution_POM.pages.BasePage;
 import Utils.LogUtils;
 import drivers.DriverManager;
 import helpers.CaptureHelper;
@@ -17,7 +18,7 @@ import org.testng.asserts.SoftAssert;
 
 
 @Listeners(TestListener.class)
-public class BaseTest {
+public class BaseTest extends BasePage {
 
     public SoftAssert softAssert;
 
@@ -71,10 +72,7 @@ public class BaseTest {
 
     @AfterMethod(alwaysRun = true)
     public void closeDriver(ITestResult result) {
-//        if (ITestResult.FAILURE == result.getStatus()) {
-//           CaptureHelper.takeScreenShot(result.getName() + "_" + SystemHelper.getDateTimeFormatted());
-//        }
-        // CaptureHelper.stopRecord();
+
         if (DriverManager.getDriver() != null) {
             DriverManager.quit();
             softAssert.assertAll();

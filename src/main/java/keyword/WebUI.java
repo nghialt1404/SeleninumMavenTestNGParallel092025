@@ -20,6 +20,7 @@ import reports.AllureManager;
 import reports.ExtentTestManager;
 
 import java.awt.*;
+import java.awt.datatransfer.StringSelection;
 import java.awt.event.KeyEvent;
 import java.time.Duration;
 import java.util.List;
@@ -120,6 +121,101 @@ public class WebUI {
             Assert.fail("Element not exist. " + by);
         }
         return element;
+    }
+
+    public static void uploadFileWithRobotClass(By elementFileForm, String filePath) {
+
+        //Click để mở form upload
+        WebUI.clickElement(elementFileForm);
+        WebUI.sleep(2);
+
+        // Khởi tạo Robot class
+        Robot rb = null;
+        try {
+            rb = new Robot();
+        } catch (AWTException e) {
+            e.printStackTrace();
+        }
+
+        // Copy File path vào Clipboard
+        StringSelection str = new StringSelection(filePath);
+        Toolkit.getDefaultToolkit().getSystemClipboard().setContents(str, null);
+
+
+        // Nhấn Control+V để dán
+        rb.keyPress(KeyEvent.VK_META);
+        rb.keyPress(KeyEvent.VK_V);
+        // Xác nhận Control V trên
+        rb.keyRelease(KeyEvent.VK_META);
+        rb.keyRelease(KeyEvent.VK_V);
+
+        WebUI.sleep(1);
+
+        // Nhấn Enter
+        rb.keyPress(KeyEvent.VK_ENTER);
+        rb.keyRelease(KeyEvent.VK_ENTER);
+
+        WebUI.sleep(2);
+    }
+
+    @Step("Check data in table by column {2} with value {1}")
+    public static void checkDataInTableByColumn_Contains(int column, String value, String columnName) {
+
+        LogUtils.info("Check data in table by column " + columnName + " with value " + value);
+        ExtentTestManager.logMessage(Status.INFO, "Check data in table by column " + columnName + " with value " + value);
+        AllureManager.saveTextLog("Check data in table by column " + columnName + " with value " + value);
+
+        if (SCREENSHOT_ALL_STEP.equals("true")) {
+            ExtentTestManager.addScreenshot("checkDatainTableByColumn" + SystemHelper.getDateTimeFormatted());
+            AllureManager.saveScreenshotPNG();
+        }
+        //Xác định số dòng của table sau khi search
+        List<WebElement> row = DriverManager.getDriver().findElements(By.xpath("//table[@id='clients']//tbody/tr"));
+        int rowTotal = row.size(); //Lấy ra số dòng
+        LogUtils.info("Số dòng tìm thấy: " + rowTotal);
+
+        //Duyệt từng dòng
+        for (int i = 1; i <= rowTotal; i++) {
+            WebElement elementCheck = DriverManager.getDriver().findElement(By.xpath("//table//tbody/tr[" + i + "]/td[" + column + "]"));
+
+            JavascriptExecutor js = (JavascriptExecutor) DriverManager.getDriver();
+            js.executeScript("arguments[0].scrollIntoView(true);", elementCheck);
+
+            LogUtils.info(value + " - ");
+            LogUtils.info(elementCheck.getText());
+            Assert.assertTrue(elementCheck.getText().toUpperCase().contains(value.toUpperCase()), "Dòng số " + i + " không chứa giá trị tìm kiếm.");
+        }
+
+    }
+
+    @Step("Check data in table by column {0} with value {1}")
+    public static void checkDataInTableByColumn_Equals(int column, String value, String columnName) {
+
+        LogUtils.info("Check data in table by column " + columnName + " with value " + value);
+        ExtentTestManager.logMessage(Status.INFO, "Check data in table by column " + columnName + " with value " + value);
+        AllureManager.saveTextLog("Check data in table by column " + columnName + " with value " + value);
+
+        if (SCREENSHOT_ALL_STEP.equals("true")) {
+            ExtentTestManager.addScreenshot("checkDatainTableByColumn" + SystemHelper.getDateTimeFormatted());
+            AllureManager.saveScreenshotPNG();
+        }
+        //Xác định số dòng của table sau khi search
+        List<WebElement> row = DriverManager.getDriver().findElements(By.xpath("//table[@id='clients']//tbody/tr"));
+        int rowTotal = row.size(); //Lấy ra số dòng
+        LogUtils.info("Số dòng tìm thấy: " + rowTotal);
+
+        //Duyệt từng dòng
+        for (int i = 1; i <= rowTotal; i++) {
+            WebElement elementCheck = DriverManager.getDriver().findElement(By.xpath("//table//tbody/tr[" + i + "]/td[" + column + "]"));
+
+            JavascriptExecutor js = (JavascriptExecutor) DriverManager.getDriver();
+            js.executeScript("arguments[0].scrollIntoView(true);", elementCheck);
+
+            LogUtils.info(value + " - ");
+            LogUtils.info(elementCheck.getText());
+            Assert.assertTrue(elementCheck.getText().toUpperCase().equals(value.toUpperCase()), "Dòng số " + i + " không chứa giá trị tìm kiếm.");
+        }
+
     }
 
     //Chờ đợi trang load xong mới thao tác

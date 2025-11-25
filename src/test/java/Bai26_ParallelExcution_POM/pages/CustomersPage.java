@@ -1,8 +1,13 @@
 package Bai26_ParallelExcution_POM.pages;
 
+import drivers.DriverManager;
 import keyword.WebUI;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebElement;
 import org.testng.Assert;
+
+import java.util.List;
 
 public class CustomersPage extends BasePage {
 
@@ -108,28 +113,38 @@ public class CustomersPage extends BasePage {
 
     public void verifyAddNewCustomerSuccess() {
 
-        boolean isAlertDisplay = WebUI.checkElementExist(alertmessage,5,1000);
+        boolean isAlertDisplay = WebUI.checkElementExist(alertmessage, 5, 1000);
         Assert.assertTrue(isAlertDisplay, "Alert Message is not display");
 
         String alertText = WebUI.getElementText(alertmessage);
         System.out.println("Alert Messgase: " + alertText);
         Assert.assertEquals(alertText, "Customer added successfully.", "Alert Message does not math expected");
+
+    }
+
+    public void searchAndCheckDataInTable(int column, String data, String columnName) {
+        WebUI.waitForPageLoaded();
+        WebUI.setText(inputSearchCustomer, data);
+        WebUI.sleep(2);
+        WebUI.waitForPageLoaded();
+        WebUI.checkDataInTableByColumn_Contains(column, data, columnName);
     }
 
     public void verifyCustomerDetails(String company, String group, String currency, String language, String country) {
-        String companyValue = WebUI.getElementAttribute(inputCompany,"value");
+        String companyValue = WebUI.getElementAttribute(inputCompany, "value");
         System.out.println("Company Value: " + companyValue);
         Assert.assertEquals(companyValue, company, "Company value not match");
 
-        String vatValue = WebUI.getElementAttribute(inputVatNumber,"value");;
+        String vatValue = WebUI.getElementAttribute(inputVatNumber, "value");
+        ;
         System.out.println("Vat Value: " + vatValue);
         Assert.assertEquals(vatValue, "1404", "Vat value not match");
 
-        String phoneValue = WebUI.getElementAttribute(inputphone,"value");
+        String phoneValue = WebUI.getElementAttribute(inputphone, "value");
         System.out.println("Phone Value: " + phoneValue);
         Assert.assertEquals(phoneValue, "0948432746", "Phone value not match");
 
-        String websiteValue = WebUI.getElementAttribute(inputWebsite,"value");
+        String websiteValue = WebUI.getElementAttribute(inputWebsite, "value");
         System.out.println("Website Value: " + websiteValue);
         Assert.assertEquals(websiteValue, "https//anhtester.com", "Website value not match");
         // giá trị nào nằm trong thẻ input thì phải xài getAtribute, còn nằm trong thẻ khác thì dùng getText

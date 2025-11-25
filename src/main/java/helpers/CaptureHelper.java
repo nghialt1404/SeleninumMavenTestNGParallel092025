@@ -73,6 +73,9 @@ public class CaptureHelper extends ScreenRecorder {
         }
     }
 
+
+
+    // Take ScreenShot
     public static void takeScreenShot(String screenshotName) {
         TakesScreenshot ts = (TakesScreenshot) DriverManager.getDriver();
         File source = ts.getScreenshotAs(OutputType.FILE);

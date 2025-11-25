@@ -8,3 +8,4 @@ report
 *.log
 *.tmp
 exports
+allure-report
