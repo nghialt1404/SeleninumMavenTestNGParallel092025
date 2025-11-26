@@ -122,6 +122,11 @@ public class CustomersPage extends BasePage {
 
     }
 
+    public void searchDataCustomer(String data) {
+        WebUI.waitForPageLoaded();
+        WebUI.setText(inputSearchCustomer, data);
+    }
+
     public void searchAndCheckDataInTable(int column, String data, String columnName) {
         WebUI.waitForPageLoaded();
         WebUI.setText(inputSearchCustomer, data);

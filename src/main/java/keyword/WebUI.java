@@ -163,7 +163,6 @@ public class WebUI {
 
         LogUtils.info("Check data in table by column " + columnName + " with value " + value);
         ExtentTestManager.logMessage(Status.INFO, "Check data in table by column " + columnName + " with value " + value);
-        AllureManager.saveTextLog("Check data in table by column " + columnName + " with value " + value);
 
         if (SCREENSHOT_ALL_STEP.equals("true")) {
             ExtentTestManager.addScreenshot("checkDatainTableByColumn" + SystemHelper.getDateTimeFormatted());
@@ -193,7 +192,6 @@ public class WebUI {
 
         LogUtils.info("Check data in table by column " + columnName + " with value " + value);
         ExtentTestManager.logMessage(Status.INFO, "Check data in table by column " + columnName + " with value " + value);
-        AllureManager.saveTextLog("Check data in table by column " + columnName + " with value " + value);
 
         if (SCREENSHOT_ALL_STEP.equals("true")) {
             ExtentTestManager.addScreenshot("checkDatainTableByColumn" + SystemHelper.getDateTimeFormatted());
